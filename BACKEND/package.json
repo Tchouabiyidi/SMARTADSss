@@ -1,0 +1,17 @@
+{
+  "name": "smartads-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SMARTADS demo API with SQLite and Gemini video verification",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --env-file=.env --watch server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.24.0"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}

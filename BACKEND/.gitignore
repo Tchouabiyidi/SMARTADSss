@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+node_modules/
+smartads.sqlite
+smartads.sqlite-shm
+smartads.sqlite-wal
+uploads/
